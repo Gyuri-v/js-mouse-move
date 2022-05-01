@@ -3,6 +3,20 @@ body {
   padding: 0;
 }
 
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 50%;
+  background: #cc9097;
+  mix-blend-mode: difference;
+}
+
 .container {
   padding: 50px;
   text-align: center;
