@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=sytle.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 50px;
+  text-align: center;
+}
+
+.container .imgs {
+  display: inline-block;
+  position: relative;
+}
+
+.container .imgs img {
+  max-width: 100%;
+}
+
+.container .imgs video {
+  max-width: 100%;
+}
+
+.container .imgs__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 3s cubic-bezier(0.06, 0.83, 0.1, 1), -webkit-transform 3s cubic-bezier(0.06, 0.83, 0.1, 1);
+}
+
+.container .imgs__img-1 {
+  position: relative;
+  width: auto;
+}
+
+.container .imgs__img-3 {
+  z-index: 3;
+}
+/*# sourceMappingURL=sytle.css.map */
